@@ -1,0 +1,256 @@
+body {
+    font-size: 1.25rem;
+    background-color: #F6F5F5;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #009FBD;
+}
+
+.navbar-brand, .nav-link {
+    color: #009FBD !important;
+    font-size: 1.5rem;
+}
+
+.nav-link:hover {
+    color: #F9E2AF !important;
+}
+
+/* Hero Section */
+.hero-section {
+    padding: 8rem 0 5rem 0; /* Adjusted padding to prevent hiding behind the menu */
+    background: linear-gradient(135deg, #4A249D, #009FBD);
+    color: #F6F5F5;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section .lead {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.hero-section .btn {
+    background-color: #F9E2AF;
+    border: none;
+    color: #4A249D;
+}
+
+.hero-section .btn:hover {
+    background-color: #009FBD;
+    color: #F6F5F5;
+}
+
+/* About Section */
+.about-section {
+    padding: 5rem 0;
+    background-color: #F6F5F5;
+}
+
+.about-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.about-section h2 {
+    color: #4A249D;
+    margin-bottom: 2rem;
+}
+
+.about-section p {
+    font-size: 1.25rem;
+}
+
+/* Services Section */
+.services-section {
+    padding: 5rem 0;
+    background-color: #F9E2AF;
+}
+
+.services-section h2 {
+    color: #4A249D;
+    margin-bottom: 2rem;
+}
+
+.services-section .card {
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.services-section .card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.services-section .card-title {
+    font-size: 1.5rem;
+    color: #4A249D;
+}
+
+.services-section .card-text {
+    font-size: 1.25rem;
+}
+
+/* Products Section */
+.products-section {
+    padding: 5rem 0;
+    background-color: #F6F5F5;
+}
+
+.products-section h2 {
+    color: #4A249D;
+    margin-bottom: 2rem;
+}
+
+.products-section .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products-section .col-md-3 {
+    display: flex;
+    flex: 1 0 21%; /* Adjusted to fit 4 in a row with some margin */
+    margin: 0.5%;
+}
+
+.products-section .card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.products-section .card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.products-section .card-title {
+    font-size: 1.5rem;
+    color: #4A249D;
+}
+
+.products-section .card-text {
+    font-size: 1.25rem;
+    flex-grow: 1;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+    padding: 5rem 0;
+    background-color: #009FBD;
+    color: #4A249D;
+}
+
+.testimonials-section h2 {
+    color: #4A249D;
+    margin-bottom: 2rem;
+}
+
+.testimonials-section .card {
+    margin-bottom: 2rem;
+    border: none;
+    background-color: #4A249D;
+    border-radius: 10px;
+}
+
+.testimonials-section .card-body {
+    color: #F6F5F5;
+}
+
+.testimonials-section .card-text {
+    font-size: 1.25rem;
+}
+
+.testimonials-section .blockquote-footer {
+    font-size: 1rem;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 5rem 0;
+    background-color: #F6F5F5;
+}
+
+.contact-section h2 {
+    color: #4A249D;
+    margin-bottom: 2rem;
+}
+
+.contact-section .form-group label {
+    font-size: 1.25rem;
+}
+
+.contact-section .form-control {
+    font-size: 1.25rem;
+    border-radius: 5px;
+}
+
+.contact-section .btn {
+    font-size: 1.25rem;
+    background-color: #4A249D;
+    border: none;
+    color: #F6F5F5;
+}
+
+.contact-section .btn:hover {
+    background-color: #009FBD;
+}
+
+.contact-section .col-md-6 h5 {
+    color: #4A249D;
+}
+
+.contact-section .col-md-6 p, .contact-section .col-md-6 a {
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.contact-section .col-md-6 a:hover {
+    color: #4A249D;
+}
+
+/* Footer Styles */
+footer {
+    padding: 2rem 0;
+    background-color: #4A249D;
+    color: #F6F5F5;
+}
+
+footer p {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 7rem 0 4rem 0;
+    }
+
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-section .lead {
+        font-size: 1.25rem;
+    }
+
+    .navbar-brand, .nav-link {
+        font-size: 1.25rem;
+    }
+}
